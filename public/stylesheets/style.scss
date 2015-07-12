@@ -1,0 +1,9 @@
+$g: #CCCCCC;
+$i: inline-block;
+$sb: slateblue;
+
+.container-fluid{background: $g;} 
+header{background-color: $g;
+		display: $i;
+		border: 2px solid $sb;
+		box-shadow: 0px 0px 15px $sb;}
