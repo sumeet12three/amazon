@@ -1,11 +1,21 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>{{ title }}</title>
-    <link rel='stylesheet' href='/stylesheets/style.css' />
-  </head>
-  <body>
-    <h1>{{ title }}</h1>
-    <p>Welcome to {{ title }}</p>
-  </body>
-</html>
+<head>
+<meta charset = "UTF8">
+<link rel="stylesheet" href="./stylesheets/style.css">
+<link rel="stylesheet" href="./stylesheets/bootstrap.min.css">
+<script src="./javascripts/jquery.min.js"></script>
+<script src="./javascripts/bootstrap.min.js"></script>
+<script src="./javascripts/masonry.min.js"></script>
+</head>
+<body class="bdy">
+<div class="container-fluid">
+	<header class="nav nav-bar">
+		<img src="../images/a.png"/>
+		<button>Choose File</button>
+		<input type="search" placeholder="insert image from disk"/>
+		<div class="btn btn-warning">Upload!</div>
+	</header>
+</div>
+</body>
+</html> 
