@@ -7,6 +7,9 @@ var bodyParser = require('body-parser');
 
 var routes = require('./routes/index');
 var users = require('./routes/users');
+var config = require('./config/config.js');
+var knox = require('knox');
+
 
 var app = express();
 
@@ -32,7 +35,13 @@ app.use(function(req, res, next) {
   next(err);
 });
 
-// error handlers
+var knoxClient = knox.createClient({
+  key:config.s3key,
+  secret:config.s3secret,
+  bucket:config.s3bucket
+})
+
+// error handlers 
 
 // development error handler
 // will print stacktrace

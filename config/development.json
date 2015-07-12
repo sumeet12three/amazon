@@ -1,0 +1,6 @@
+{
+	"host":"http://localhost:3000",
+	"s3key":" AKIAJDHMWSXLZK3S7NCQ",
+	"s3secret":"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",
+	"s3bucket":"sumipb"
+}

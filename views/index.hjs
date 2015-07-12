@@ -6,16 +6,25 @@
 <link rel="stylesheet" href="./stylesheets/bootstrap.min.css">
 <script src="./javascripts/jquery.min.js"></script>
 <script src="./javascripts/bootstrap.min.js"></script>
-<script src="./javascripts/masonry.min.js"></script>
+<script src="./javascripts/masonry.pkgd.min.js"></script>
+<script src="./javascripts/flash.js"></script>
 </head>
 <body class="bdy">
 <div class="container-fluid">
-	<header class="nav nav-bar">
-		<img src="../images/a.png"/>
+	<header class="row">
+		<img src="./images/a.png"/>
 		<button>Choose File</button>
 		<input type="search" placeholder="insert image from disk"/>
 		<div class="btn btn-warning">Upload!</div>
 	</header>
+	<div class="row">
+		<div class="grid">
+  <div class="grid-item"><img src="https://s3-us-west-2.amazonaws.com/sumipb/1.jpg"></div>
+  <div class="grid-item grid-item--width2"><img src="https://s3-us-west-2.amazonaws.com/sumipb/2.jpg"></div>
+  <div class="grid-item"><img src="https://s3-us-west-2.amazonaws.com/sumipb/3.jpg"></div>
+  
+</div>
+	</div>
 </div>
 </body>
 </html> 
